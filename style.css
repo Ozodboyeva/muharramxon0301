@@ -1,0 +1,449 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); /* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Lato:wght@400;700&family=Montserrat:wght@400;500&family=Philosopher:ital,wght@0,700;1,400&display=swap');/*philiospher*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root{
+    --navBarcolor:#736D67;
+    --fontFamilyRoboto: "Roboto";
+    --FontFamilyPhilospher:font-family: 'Philosopher', sans-serif;
+}
+.container{
+    max-width:1200px;
+    margin:0 auto;
+}
+/* Navbar secton */
+nav{
+    margin-top: 43px;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    margin-left:41px;
+    font-family:var(--fontFamilyRoboto);
+    list-style: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #736D67;
+
+}
+
+.btns{
+    width:155px;
+    height:46px;
+    background: #DC780B;
+    border:none;
+    border-radius: 5px;
+    font-family:var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+
+}
+/* Navbar secton  done*/
+
+
+/* Time section */
+.time{
+    margin-top: 2%;
+}
+.goodtime{
+    display: flex;
+    justify-content:space-between;
+}
+.good{
+    margin-top: 7%;
+
+}
+.make{
+    font-family: var(--fontFamilyPhilosopher);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48.83px;
+    line-height: 58px;
+    color: #150C01;
+
+}
+.nake{
+    margin-top: 42px;
+    font-family:var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7;
+}
+.wer{
+    margin-top: 50px;
+    width:158px;
+    height:60px;
+    background: #DC780B;
+    border:none;
+    border-radius: 5px;
+    color: #FFFFFF;
+
+}
+.qwe{
+    margin-left: 30px;
+    margin-top: 50px;
+    width:170px;
+    height: 60px;
+    border: 1.5px solid #DC780B;
+    border-radius: 5px;
+    font-family:var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DC780B;
+}
+.ovqat{
+    margin-top:50%;
+}
+.tri{ 
+    border-radius: 30px;
+
+}
+.wes{
+    margin-left: 20%;
+}
+.texts-module{
+    margin-top: 17%;
+    margin-left: 75px;
+}
+.abs{
+    font-family:var(--fontFamilyRoboto);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+
+    
+}
+.dsa{
+    font-family:var(--FontFamilyPhilospher);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 41px;
+    color: #150C01;
+
+}
+.textl{
+    margin-top: 30px;
+    font-family:var(--FontFamilyPhilospher);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7;
+}
+.more{
+    margin-top: 29px;
+    height: 42px;
+    width: 142px;
+    border:none;
+    border-radius: 5px;
+    background: #DC780B;
+    
+}
+/* Time section done */
+
+
+/* Menyu section */
+
+.menyu{
+    margin-top:10%;
+    padding: 50px 0px 136px;
+   
+    
+}
+
+.texti-title{
+    margin-left: 50%;
+    font-family:var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    text-decoration: none;
+}
+.food{
+    margin-top: 9px;
+    margin-left:38%;
+    font-family:var(--FontFamilyPhilospher);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #150C01;
+
+}
+.ttitle{
+    margin-top: 25px;
+    margin-left: 25%;
+    font-family:var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #150C01;
+    
+    
+
+}
+.product-cards {
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    justify-content: center;
+    margin: 159px 0 50px 0;
+    column-gap: 30px;
+    row-gap: 35px;
+  }
+  
+  .product-card {
+    /* background: gray; */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 75px 10px 10px 10px;
+  }
+  
+  .product-card > img {
+    border-radius: 75px 10px 75px 0px;
+    z-index: 5;
+  }
+  
+  .product-card__texts {
+    padding: 10px 25px 25px;
+  }
+  
+  .product-card__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .product-name {
+    font-family:var(--fontFamilyRoboto);
+    color:black;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+  }
+  
+  .product-cost {
+    font-family: var(--fontFamilyRoboto);
+    color:black;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+  }
+  
+  .product-description {
+    font-family:var(--fontFamilyRoboto);
+    color:black;
+    padding: 20px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.7;
+  }
+  
+  .product-rate {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .box {
+    height: 34px;
+    width: 36px;
+    background: #DC780B;
+    border-radius: 5px;
+  }
+  
+  .stars {
+    font-size: 16px;
+    color: #dc780b;
+  }
+  
+  .stars i:nth-child(5) {
+    color: #ededed !important;
+  }
+
+  .learn{
+    margin-left:50%;
+    width: 142px;
+    width: 142px;
+    height: 42px;
+    opacity: 0.1;
+    border: 1px solid #DC780B;
+    border-radius: 5px;
+  }
+  .lrt{
+    font-family:var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DC780B;
+  }
+  /* Menyu section done */
+  .section{
+    background-color:bisque;
+    padding: 50px 0px 136px;
+
+  }
+ 
+.contact a{
+    margin-top: 15%;
+    margin-left:50%;
+    font-family:var(--fontFamilyRoboto);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+}
+.contact h2{
+    margin-left:30%;
+    margin-top: 15px;
+    font-family:var(--fontFamilyPhilosopher);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #150C01;
+}
+
+.twopart{
+    display: flex;
+    justify-content: space-between;
+}
+.inp{
+    margin-top: 46px;
+    margin-left: 25%;
+    width: 650px;
+    height: 55px;
+    font-family:var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+        
+
+}
+.send{
+    margin-right: 15%;
+    margin-top:3%;
+    width: 140px;
+    height: 65px;
+    border:none;
+    background: #DC780B;
+    border-radius: 8px;
+}
+.gra{
+    margin-left: 36px;
+    font-family:var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* done contact section */
+
+/* Footer section */
+footer{
+    background-color: #000000;
+    padding: 50px 0px 136px;
+}
+
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+}
+.footer-items li{
+    list-style: none;
+}
+.footer-nav h2{
+    font-family:var(--FontFamilyPhilosopher);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+.footer-nav li{
+    margin-top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+
+      
+
+
+
+
